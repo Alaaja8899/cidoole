@@ -7,7 +7,7 @@ require('dotenv').config();
 
 // Initialize OpenAI
 const openai = new OpenAI({
-    apiKey: process.env.API_KEY
+    apiKey: "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"
 });
 
 // Generate a response from OpenAI
